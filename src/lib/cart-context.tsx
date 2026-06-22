@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { createContext, useContext, useReducer, useEffect } from "react";
 import { Product } from "./products";
@@ -83,13 +83,13 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     try {
-      const saved = localStorage.getItem("afganjwellers-cart");
+      const saved = localStorage.getItem("afganJewellers-cart");
       if (saved) dispatch({ type: "HYDRATE", state: JSON.parse(saved) });
     } catch {}
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("afganjwellers-cart", JSON.stringify(state));
+    localStorage.setItem("afganJewellers-cart", JSON.stringify(state));
   }, [state]);
 
   const cartCount = state.items.reduce((sum, i) => sum + i.quantity, 0);

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -7,7 +7,7 @@ import { ArrowRight, Heart, Leaf, Star, Gem } from "lucide-react";
 
 const values = [
   { icon: Heart, title: "Made with Love", description: "Every single bead is placed with intention and care. Our jewelry is a labor of love." },
-  { icon: Leaf, title: "Nature Inspired", description: "Flowers, petals, cherries, leaves — nature is our infinite muse and greatest teacher." },
+  { icon: Leaf, title: "Nature Inspired", description: "Flowers, petals, cherries, leaves â€” nature is our infinite muse and greatest teacher." },
   { icon: Gem, title: "Premium Quality", description: "We never compromise on materials. Only the finest beads, metals, and threads make the cut." },
   { icon: Star, title: "Artisan Heritage", description: "Rooted in a tradition of handcraft, we carry forward skills passed through generations." },
 ];
@@ -35,7 +35,7 @@ export default function AboutClient() {
               <span className="italic font-normal text-accent">Craftsmanship</span>
             </h1>
             <p className="font-cormorant text-2xl text-brand-text/65 max-w-2xl mx-auto leading-relaxed">
-              AfghanJwellers was born from a simple, profound belief: that jewelry should feel as
+              AfghanJewellers was born from a simple, profound belief: that jewelry should feel as
               extraordinary as the woman wearing it.
             </p>
           </motion.div>
@@ -88,17 +88,17 @@ export default function AboutClient() {
               </h2>
               <div className="space-y-4 font-cormorant text-xl text-brand-text/70 leading-relaxed">
                 <p>
-                  AfghanJwellers began as a quiet obsession with beautiful things — the way a flower
+                  AfghanJewellers began as a quiet obsession with beautiful things â€” the way a flower
                   holds morning dew, the particular blush of a cherry in bloom, the soft weight of
                   a well-made earring.
                 </p>
                 <p>
                   What started at a small craft table has grown into a collection of pieces worn by
                   women across India and beyond. Each piece is still made the same way it always was
-                  — one bead at a time, by hand, with complete attention.
+                  â€” one bead at a time, by hand, with complete attention.
                 </p>
                 <p>
-                  We believe luxury is not about price — it is about the time someone was willing
+                  We believe luxury is not about price â€” it is about the time someone was willing
                   to spend making something beautiful for you.
                 </p>
               </div>

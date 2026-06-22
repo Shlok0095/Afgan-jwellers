@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
 import { Mail, Heart, Sparkles } from "lucide-react";
@@ -37,7 +37,7 @@ export default function Footer() {
               <Sparkles size={8} />
               Inspired by Nature
               <Sparkles size={8} />
-              AfghanJwellers
+              AfghanJewellers
             </span>
           ))}
         </div>
@@ -49,14 +49,14 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="inline-block mb-4">
               <h2 className="font-serif text-2xl font-bold tracking-tight">
-                Afghan<span className="text-gold">Jwellers</span>
+                Afghan<span className="text-gold">Jewellers</span>
               </h2>
               <p className="text-xs tracking-[0.25em] text-gold/60 mt-1 font-light uppercase">
                 Handcrafted Beauty Inspired by Nature
               </p>
             </Link>
             <p className="text-sm leading-relaxed text-primary/60 max-w-xs font-light mt-4">
-              Every piece is a love letter to nature — handcrafted by skilled artisans using premium
+              Every piece is a love letter to nature â€” handcrafted by skilled artisans using premium
               beads, threads, and metals. Wearable art for the woman who appreciates beauty in detail.
             </p>
 
@@ -143,7 +143,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-primary/35">
-          <p>© 2025 AfghanJwellers. All rights reserved.</p>
+          <p>Â© 2025 AfghanJewellers. All rights reserved.</p>
           <p className="flex items-center gap-1">
             Handcrafted with <Heart size={10} className="text-rose-gold fill-rose-gold" /> in every piece
           </p>

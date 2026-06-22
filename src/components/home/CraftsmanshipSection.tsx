@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -8,13 +8,13 @@ const steps = [
     step: "01",
     title: "Design Inspiration",
     description:
-      "Each design begins with nature — a petal's curve, a berry's blush, or the way morning dew sits on a leaf. Our artisans sketch every detail before a single bead is touched.",
+      "Each design begins with nature â€” a petal's curve, a berry's blush, or the way morning dew sits on a leaf. Our artisans sketch every detail before a single bead is touched.",
   },
   {
     step: "02",
     title: "Material Selection",
     description:
-      "We hand-select every bead, thread, and finding. Only materials that meet our quality standards make it into an AfghanJwellers piece — Czech glass, freshwater pearls, and gold-filled wire.",
+      "We hand-select every bead, thread, and finding. Only materials that meet our quality standards make it into an AfghanJewellers piece â€” Czech glass, freshwater pearls, and gold-filled wire.",
   },
   {
     step: "03",
@@ -93,7 +93,7 @@ export default function CraftsmanshipSection() {
               <span className="italic font-normal text-accent">in Every Stitch</span>
             </h2>
             <p className="font-cormorant text-xl text-brand-text/65 mb-10 max-w-md leading-relaxed">
-              Our jewelry is not manufactured — it is composed, like music. Each
+              Our jewelry is not manufactured â€” it is composed, like music. Each
               piece carries the warmth of human hands and the intention of artistry.
             </p>
 

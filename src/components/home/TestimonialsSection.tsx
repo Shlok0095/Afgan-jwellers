@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,7 +9,7 @@ const testimonials = [
     name: "Priya Sharma",
     location: "Mumbai",
     rating: 5,
-    text: "I wore the Blush Petal Drops to my sister's wedding and received more compliments on my earrings than anything else! The quality is absolutely stunning — you can feel the love in every bead.",
+    text: "I wore the Blush Petal Drops to my sister's wedding and received more compliments on my earrings than anything else! The quality is absolutely stunning â€” you can feel the love in every bead.",
     product: "Blush Petal Drops",
     avatar: "P",
   },
@@ -17,7 +17,7 @@ const testimonials = [
     name: "Ayesha Malik",
     location: "Hyderabad",
     rating: 5,
-    text: "AfghanJwellers has ruined me for regular jewelry forever. The Bloom Collar Necklace is a masterpiece. Every time I wear it, people stop me to ask where I got it. Worth every rupee.",
+    text: "AfghanJewellers has ruined me for regular jewelry forever. The Bloom Collar Necklace is a masterpiece. Every time I wear it, people stop me to ask where I got it. Worth every rupee.",
     product: "Bloom Collar Necklace",
     avatar: "A",
   },
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Fatima Rahman",
     location: "Delhi",
     rating: 5,
-    text: "The packaging alone made me emotional — so thoughtful and beautiful. The Cherry Charm Bracelet is even more gorgeous in person. My go-to for every special occasion gift now.",
+    text: "The packaging alone made me emotional â€” so thoughtful and beautiful. The Cherry Charm Bracelet is even more gorgeous in person. My go-to for every special occasion gift now.",
     product: "Cherry Charm Bracelet",
     avatar: "F",
   },

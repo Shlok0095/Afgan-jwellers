@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="bg-dark text-primary text-center py-2 px-4 text-xs tracking-[0.2em] font-light">
         <span className="inline-flex items-center gap-2">
           <Sparkles size={10} className="text-gold" />
-          Free shipping on orders above ₹2,000 &nbsp;·&nbsp; Handcrafted with love
+          Free shipping on orders above â‚¹2,000 &nbsp;Â·&nbsp; Handcrafted with love
           <Sparkles size={10} className="text-gold" />
         </span>
       </div>
@@ -61,7 +61,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex flex-col leading-none group">
               <span className="font-serif text-xl lg:text-2xl font-bold tracking-tight text-dark group-hover:gold-text transition-all duration-300">
-                Afghan<span className="text-gold">Jwellers</span>
+                Afghan<span className="text-gold">Jewellers</span>
               </span>
               <span className="text-[9px] tracking-[0.3em] text-accent font-light uppercase">
                 Handcrafted Beauty

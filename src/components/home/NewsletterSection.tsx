@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { motion } from "framer-motion";
@@ -59,7 +59,7 @@ export default function NewsletterSection() {
               <CheckCircle size={40} className="text-gold" />
               <p className="font-serif text-xl text-primary">You're in the circle!</p>
               <p className="text-sm text-primary/50 font-light">
-                Welcome to AfghanJwellers. Expect something beautiful in your inbox soon.
+                Welcome to AfghanJewellers. Expect something beautiful in your inbox soon.
               </p>
             </motion.div>
           ) : (

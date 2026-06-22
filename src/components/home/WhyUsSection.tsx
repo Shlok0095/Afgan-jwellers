@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { motion } from "framer-motion";
 import { Gem, Leaf, Globe, Brush, Package, HeartHandshake } from "lucide-react";
@@ -32,7 +32,7 @@ const features = [
     icon: Leaf,
     title: "Eco-Friendly Packaging",
     description:
-      "Beautifully presented in sustainable, recyclable packaging — because luxury should never cost the Earth.",
+      "Beautifully presented in sustainable, recyclable packaging â€” because luxury should never cost the Earth.",
   },
   {
     icon: HeartHandshake,
@@ -54,7 +54,7 @@ export default function WhyUsSection() {
           className="text-center mb-16"
         >
           <p className="text-xs tracking-[0.3em] text-gold/70 uppercase font-medium mb-3">
-            The AfghanJwellers Promise
+            The AfghanJewellers Promise
           </p>
           <h2 className="font-serif text-4xl sm:text-5xl font-bold text-primary mb-4">
             Why Choose Us

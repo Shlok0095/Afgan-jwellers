@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Playfair_Display, Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/lib/cart-context";
@@ -30,11 +30,11 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "AfghanJwellers — Handcrafted Luxury Jewelry",
-    template: "%s | AfghanJwellers",
+    default: "AfghanJewellers â€” Handcrafted Luxury Jewelry",
+    template: "%s | AfghanJewellers",
   },
   description:
-    "Discover handcrafted floral earrings, artisan necklaces, and beaded bracelets. Every piece from AfghanJwellers is a one-of-a-kind work of art inspired by nature.",
+    "Discover handcrafted floral earrings, artisan necklaces, and beaded bracelets. Every piece from AfghanJewellers is a one-of-a-kind work of art inspired by nature.",
   keywords: [
     "handmade jewelry",
     "floral earrings",
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
     "necklace",
     "bracelets",
   ],
-  authors: [{ name: "AfghanJwellers" }],
+  authors: [{ name: "AfghanJewellers" }],
   openGraph: {
-    title: "AfghanJwellers — Handcrafted Luxury Jewelry",
+    title: "AfghanJewellers â€” Handcrafted Luxury Jewelry",
     description: "Wearable art inspired by nature. Handcrafted with love.",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AfghanJwellers — Handcrafted Luxury Jewelry",
+    title: "AfghanJewellers â€” Handcrafted Luxury Jewelry",
     description: "Wearable art inspired by nature. Handcrafted with love.",
   },
   robots: { index: true, follow: true },
